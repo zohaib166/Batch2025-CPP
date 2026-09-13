@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-    int id;
-    string name;
+    int rollNo;
+    string studentName;
 
-    cout << "Enter ID: ";
-    cin >> id;
+    cout << "Enter Roll Number: ";
+    cin >> rollNo;
 
     cout << "Enter Full Name: ";
-    getline(cin, name); // SKIPPED!!!
+    getline(cin, studentName);
 
-    cout << "ID: " << id << " | Name: [" << name << "]\n";
+    cout << "Roll: " << rollNo << ", Name: " << studentName << endl;
 }
